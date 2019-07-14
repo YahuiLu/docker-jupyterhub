@@ -709,7 +709,7 @@ c.Authenticator.admin_users = set(['DOCKER_ADMIN_USER'])
 #  already.
 #  
 #  Supports Linux and BSD variants only.
- c.LocalAuthenticator.create_system_users = True
+c.LocalAuthenticator.create_system_users = True
 
 ## Whitelist all users from this UNIX group.
 #  
